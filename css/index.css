@@ -1,0 +1,32 @@
+.outer{
+    width: 200px;
+    background-color:rgb(213, 213, 238);
+    margin-left: 100px;
+    padding: 10px;
+    overflow: hidden;
+    
+}
+#inner{
+    background-color: aqua;
+    height: 30px;
+    line-height: 30px;
+    width: auto;
+    margin-bottom: 0px;
+    text-align: center;
+    text-decoration: blueviolet;
+    list-style: none;
+    
+}
+#inner a{
+    text-decoration: none;
+}
+#inner a:link{
+    color:red;
+}
+#inner a:hover{
+    color:greenyellow;
+}
+#inner:hover{
+    color: white;
+    background-color: coral;
+}
